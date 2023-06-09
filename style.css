@@ -228,6 +228,7 @@
         padding: 1.8%;
     }
     .encriptado {
+        display: none;
         width: 80%;
         height: 15%;
         left: 10%;
