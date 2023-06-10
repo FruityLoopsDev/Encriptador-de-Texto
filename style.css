@@ -175,14 +175,16 @@
     top: 15%;
 }
 .footer{
+    display: flex;
     align-items: center;
     background-color: #f3f5fc;
     padding: 2%;
+    gap: 40%;
 }
 .mensaje-final{
     font-family: Inter;
     font-size: 18px;
-    width: 100%;
+    width: 130%;
     padding-left: 5%;
 }
 .copyright{
