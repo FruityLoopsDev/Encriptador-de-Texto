@@ -36,17 +36,14 @@
     text-align: left;
     background-color: #f3f5fc;
 }
-
 .texto::placeholder{
     color: #0A3871;
 }
-
 .texto:focus,
 .texto:active {
     border: none;
     outline: none;
 }
-
 .terminos{
     display: flex;
     flex-direction: row;
@@ -61,14 +58,12 @@
     top: 80%;
     border-radius: 0px;
 }
-
 .terminos img{
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
 }
-
 .terminos p{
     font-family: Inter;
     font-size: 12px;
@@ -82,7 +77,6 @@
     order: 1;
     flex-grow: 0;
 }
-
 .botones{
     display: flex;
     flex-direction: row;
@@ -94,7 +88,6 @@
     top: 82%;
     gap: 24px;
 }
-
 .btn-encriptar{
     align-items: center;
     justify-content: center;
@@ -110,8 +103,6 @@
     color: aliceblue;
     font-weight: 100;
 }
-
-
 .btn-desencriptar{
     box-sizing: border-box;
     display: flex;
@@ -131,7 +122,6 @@
     text-align: center;
     color: #0A3871;
 }
-
 .encriptado{
     display: flex;
     justify-content: center;
@@ -144,7 +134,6 @@
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 24px;
 }
-
 .mensaje-encriptado{
     display: flex;
     flex-direction: column;
@@ -158,7 +147,6 @@
     top: 65%;
     text-align: center
 }
-
 .mensaje-encriptado h2 {
     width: 60%;
     font-family: Inter;
@@ -170,7 +158,6 @@
     text-align: center;
     color: #495057;
 }
-
 .mensaje-encriptado p {
     width: 80%;
     font-family: Inter;
@@ -181,12 +168,27 @@
     text-align: center;
     color: #495057;
 }
-
 .encriptado img {
     position: absolute;
     width: 80%;
     height: 50%;
     top: 15%;
+}
+.footer{
+    align-items: center;
+    background-color: #f3f5fc;
+}
+.mensaje-final{
+    font-family: Inter;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 5%;
+}
+.copyright{
+    font-family: Inter;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 5%;
 }
 
 /* Responsive designe */
@@ -243,6 +245,4 @@
         display: none;
         visibility: hidden;
     }
-
-
 }
