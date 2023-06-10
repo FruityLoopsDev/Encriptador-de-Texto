@@ -177,6 +177,7 @@
 .footer{
     align-items: center;
     background-color: #f3f5fc;
+    padding: 2%;
 }
 .mensaje-final{
     font-family: Inter;
