@@ -328,11 +328,11 @@ body {
         width: 48%;
         justify-content: center;
     }
-    .btn-encriptar:hover,.btn-desencriptar:hover {
+    /* .btn-encriptar:hover,.btn-desencriptar:hover {
         margin: 0.3%;
         width: 42%;
         padding: 1.8%;
-    }
+    } */
     .encriptado {
         display: none;
         width: 80%;
