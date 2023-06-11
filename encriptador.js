@@ -49,7 +49,7 @@ function encriptar() {
         parrafo.textContent = "";
         muñeco.src = "./img/animaciones/encriptex-thx.gif";
       } else {
-        muñeco.src = "./img/muneco.png";
+        muñeco.src = "./img/animaciones/muneco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
         Swal.fire({
