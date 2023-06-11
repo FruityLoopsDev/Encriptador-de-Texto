@@ -190,13 +190,13 @@ body {
 }
 .mensaje-final{
     font-family: Inter;
-    font-size: 18px;
+    font-size: 14px;
     width: 130%;
     padding-left: 5%;
 }
 .copyright{
     font-family: Inter;
-    font-size: 18px;
+    font-size: 14px;
     width: 100%;
     padding-left: 5%;
 }
@@ -297,25 +297,25 @@ body {
     .logo{
         width: 38%;
     }
-    .encriptar {
+    .encriptar{
         width: 100%;
     }
-    .texto {
+    .texto{
         width: 80%;
         height: 60%;
         left: 10%;
         top: 5%;
     }
-    .terminos {
+    .terminos{
         width: 80%;
         left: 10%;
         top: 67%;
-        height: 47%;
+        height: 0%;
     }
     .terminos p{
         font-size: 16px;        
     }
-    .botones {
+    .botones{
         width: 80%;
         left: 10%;
         top: 70%;
@@ -323,6 +323,10 @@ body {
     .btn-encriptar{
         width: 48%;
         border-radius: 16px;
+    }
+    .btn-desencriptar{
+        width: 48%;
+        justify-content: center;
     }
     .btn-encriptar:hover,.btn-desencriptar:hover {
         margin: 0.3%;
