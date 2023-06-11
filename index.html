@@ -2,20 +2,20 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
 
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&display=swap">
 </head>
 
 <body>
     <header>
         <div class="encabezado">
-            <img class="logo" src="img/Logo.png" alt="logo de alura">
+            <img class="logo" src="img/animaciones/encriptext-logo.gif" alt="logo de alura">
         </div>
     </header>
     <div class="container">
@@ -30,29 +30,19 @@
             <button class="btn-encriptar" type="button" onclick="encriptar()">
                 Encriptar
             </button>
-            <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()" />
+            <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()">
         </div>
     </div>
     <div class="encriptado">
-        <img src="img/Muñeco.png" alt="" id="muneco" />
+        <img src="img/Muñeco.png" alt="Muñeco buscando" id="muñeco">
         <div class="mensaje-encriptado" id="mensaje-encriptado">
-            <h2 id="titulo-mensaje">Ningun mensaje encotrado</h2>
+            <h2 id="titulo-mensaje">Ningun mensaje fue encotrado</h2>
             <p id="parrafo">Ingresa el texto que desea encriptar o desencriptar</p>
-            <!-- <textarea
-          name="mensaje"
-          id="mensaje"
-          cols="30"
-          rows="10"
-          class="mensaje"
-        ></textarea> -->
         </div>
     </div>
 </body>
-
 <script src="encriptador.js"></script>
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <footer class="new_footer_area bg_color">
     <div class="new_footer_top">
 
@@ -61,11 +51,11 @@
             <div class="footer_bg_two"></div>
         </div>
     </div>
-    <fdiv class="footer">
+    <div class="footer">
     <div class="mensaje-final">
         Desarrollado con 💓 por Fruity Loops Dev (Julio C. Fermin)  
     </div>
     <div class="copyright">
-        ©️ Programa ONE de Alura by Oracle
+        ©️ 2023 Programa ONE de Alura by Oracle
     </div>
 </footer>
