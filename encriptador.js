@@ -30,7 +30,7 @@ function encriptar() {
     }
   }
   
-  function desencriptar() {
+function desencriptar() {
     let texto = document.getElementById("texto").value;
     let tituloMensaje = document.getElementById("titulo-mensaje");
     let parrafo = document.getElementById("parrafo");
