@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.encabezado{
+.encabezado {
     background: #f3f5fc;
     width: 100%;
 }
 
-.logo{
+.logo {
     padding-top: 0px;
     margin-left: 40px;
     width: 15%;
 }
 
-.container{
+.container {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -24,7 +24,7 @@
 .texto {
     position: absolute;
     width: 42%;
-    height: 60%;
+    height: 40%;
     left: 12%;
     top: 4%;
     border: none;
@@ -37,15 +37,17 @@
     background-color: #f3f5fc;
 }
 
-.texto::placeholder{
+.texto::placeholder {
     color: #0A3871;
 }
+
 .texto:focus,
 .texto:active {
     border: none;
     outline: none;
 }
-.terminos{
+
+.terminos {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,13 +61,15 @@
     top: 50%;
     border-radius: 0px;
 }
-.terminos img{
+
+.terminos img {
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
 }
-.terminos p{
+
+.terminos p {
     font-family: Inter;
     font-size: 12px;
     font-weight: 400;
@@ -88,15 +92,15 @@
     width: 80%;
     left: 12%;
     top: 54%;
-    gap: 24px;
+    gap: 18px;
 }
 
-.btn-encriptar{
+.btn-encriptar {
     align-items: center;
     justify-content: center;
     padding: 2%;
     gap: 8%;
-    width: 25%;
+    width: 13%;
     background-color: #0A3871;
     border-radius: 24px;
     font-family: Inter;
@@ -106,15 +110,15 @@
     color: aliceblue;
     font-weight: 100;
 }
-.btn-desencriptar{
+
+.btn-desencriptar {
     box-sizing: border-box;
-    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     padding: 2%;
     gap: 8%;
-    width: 25%;
+    width: 13%;
     background: #f3f5fc;
     border: 1px solid #0A3871;
     border-radius: 24px;
@@ -125,7 +129,50 @@
     text-align: center;
     color: #0A3871;
 }
-.encriptado{
+
+.btn-copiar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    gap: 8%;
+    width: 13%;
+    background: #f3f5fc;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+.texto-boton {
+    display: none;
+}
+.btn-limpiar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    gap: 8%;
+    width: 13%;
+    background: #4a4b50;
+    border: 1px solid #45484b;
+    border-radius: 24px;
+    font-size: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #fdfeff;
+}
+
+.encriptado {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -137,7 +184,8 @@
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 24px;
 }
-.mensaje-encriptado{
+
+.mensaje-encriptado {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,6 +198,7 @@
     top: 65%;
     text-align: center
 }
+
 .mensaje-encriptado h2 {
     width: 60%;
     font-family: Inter;
@@ -161,6 +210,7 @@
     text-align: center;
     color: #495057;
 }
+
 .mensaje-encriptado p {
     width: 80%;
     font-family: Inter;
@@ -171,6 +221,7 @@
     text-align: center;
     color: #495057;
 }
+
 .encriptado img {
     position: absolute;
     width: 80%;
@@ -180,42 +231,50 @@
 
 /* //// Starting Footer //// */
 body {
-    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
-  }
-.footer{
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
     display: flex;
     /* justify-content: space-between; */
     background-color: #f3f5fc;
     padding: 2%;
 }
-.mensaje-final{
+
+.mensaje-final {
     font-family: Inter;
     font-size: 14px;
     width: 130%;
     padding-left: 5%;
 }
-.copyright{
+
+.copyright {
     font-family: Inter;
     font-size: 14px;
     width: 100%;
     padding-left: 5%;
 }
+
 body {
     background: #f3f5fc;
 }
+
 .new_footer_area {
     background: #f3f5fc;
     ;
 }
+
 .new_footer_top {
     padding: 120px 0px 270px;
     position: relative;
-      overflow-x: hidden;
+    overflow-x: hidden;
 }
+
 .new_footer_area .footer_bottom {
     padding-top: 5px;
     padding-bottom: 50px;
 }
+
 .footer_bottom {
     font-size: 14px;
     font-weight: 300;
@@ -236,7 +295,7 @@ body {
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif") no-repeat center center;
     width: 330px;
     height: 105px;
-  background-size:100%;
+    background-size: 100%;
     position: absolute;
     bottom: 0;
     left: 30%;
@@ -248,7 +307,7 @@ body {
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
     width: 88px;
     height: 100px;
-  background-size:100%;
+    background-size: 100%;
     bottom: 0;
     left: 38%;
     position: absolute;
@@ -257,30 +316,33 @@ body {
 }
 
 @-moz-keyframes myfirst {
-  0% {
-    left: -25%;
-  }
-  100% {
-    left: 100%;
-  }
+    0% {
+        left: -25%;
+    }
+
+    100% {
+        left: 100%;
+    }
 }
 
 @-webkit-keyframes myfirst {
-  0% {
-    left: -25%;
-  }
-  100% {
-    left: 100%;
-  }
+    0% {
+        left: -25%;
+    }
+
+    100% {
+        left: 100%;
+    }
 }
 
 @keyframes myfirst {
-  0% {
-    left: -25%;
-  }
-  100% {
-    left: 100%;
-  }
+    0% {
+        left: -25%;
+    }
+
+    100% {
+        left: 100%;
+    }
 }
 
 /*************footer End*****************/
@@ -289,45 +351,79 @@ body {
 /* Responsive designe */
 
 @media (max-width: 57.5em) {
-    .container{
-    display: flex;
-    flex-direction: row;
-    height: 80vh;
+    .container {
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
     }
-    .logo{
+
+    .logo {
         width: 38%;
     }
-    .encriptar{
+
+    .encriptar {
         width: 100%;
     }
-    .texto{
+
+    .texto {
         width: 80%;
         height: 60%;
         left: 10%;
         top: 5%;
     }
-    .terminos{
+
+    .terminos {
         width: 80%;
         left: 10%;
         top: 67%;
         height: 0%;
     }
-    .terminos p{
-        font-size: 16px;        
+
+    .terminos p {
+        font-size: 16px;
     }
-    .botones{
-        width: 80%;
+
+    .botones {
+        display: flex;
+        justify-content
+        width: 50%;
         left: 10%;
         top: 70%;
     }
-    .btn-encriptar{
-        width: 48%;
-        border-radius: 16px;
+
+    .btn-encriptar {
+        width: 28%;
+        border-radius: 24px;
     }
-    .btn-desencriptar{
-        width: 48%;
+
+    .btn-desencriptar {
+        width: 28%;
         justify-content: center;
     }
+    
+    .btn-encriptar:hover,.btn-desencriptar:hover {
+        margin: 0.3%;
+        width: 32%;
+        padding: 1.8%;
+    }
+    
+    .btn-copiar{
+        border: none;
+        padding right: 2%;
+    }
+
+    .texto-boton {
+        display: none;
+    }
+
+    .btn-limpiar{
+        display: flex;
+        background: none;
+        color: #0A3871;
+        border: none;
+        padding-left: 5%;
+    }
+
     /* .btn-encriptar:hover,.btn-desencriptar:hover {
         margin: 0.3%;
         width: 42%;
@@ -340,24 +436,29 @@ body {
         left: 10%;
         top: 80%;
     }
+
     .mensaje-encriptado {
         width: 100%;
         top: 5%;
     }
+
     .encriptado img {
         top: 0;
         display: none;
         visibility: hidden;
     }
-    .footer{
+
+    .footer {
         flex-direction: column;
         padding: 1%;
     }
+
     .mensaje-final {
         width: 100%;
         padding-left: 2%;
         font-size: x-small;
     }
+
     .copyright {
         width: 100%;
         font-size: x-small;

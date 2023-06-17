@@ -60,4 +60,30 @@ function desencriptar() {
         }
         )
       }
-  }
+}
+function copiarTexto() {
+  var textarea = document.getElementById("texto");
+  var texto = textarea.value;
+
+  navigator.clipboard.writeText(texto)
+    .then(function() {
+      alert("¡Texto copiado!");
+    })
+    .catch(function(err) {
+      console.error("Error al copiar el texto: ", err);
+    });
+}
+
+function limpiarTexto() {
+  var textarea = document.getElementById("texto");
+  textarea.value = "";
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const btnModoOscuro = document.getElementById('modo-oscuro-btn');
+  const themeStyle = document.getElementById('theme-style');
+
+  btnModoOscuro.addEventListener('click', function() {
+    themeStyle.href = (themeStyle.href.includes('style.css')) ? 'style-dark.css' : 'style.css';
+  });
+});
