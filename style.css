@@ -149,9 +149,11 @@
     text-align: center;
     color: #0A3871;
 }
+
 .texto-boton {
     display: none;
 }
+
 .btn-limpiar {
     box-sizing: border-box;
     display: flex;
@@ -182,7 +184,7 @@
     top: 5%;
     background: #f3f5fc;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 24px;
+    border-radius: 175px;
 }
 
 .mensaje-encriptado {
@@ -225,6 +227,7 @@
 .encriptado img {
     position: absolute;
     width: 80%;
+    width: max-content;
     height: 50%;
     top: 15%;
 }
@@ -385,8 +388,7 @@ body {
 
     .botones {
         display: flex;
-        justify-content
-        width: 50%;
+        justify-content width: 50%;
         left: 10%;
         top: 70%;
     }
@@ -400,14 +402,15 @@ body {
         width: 28%;
         justify-content: center;
     }
-    
-    .btn-encriptar:hover,.btn-desencriptar:hover {
+
+    .btn-encriptar:hover,
+    .btn-desencriptar:hover {
         margin: 0.3%;
         width: 32%;
         padding: 1.8%;
     }
-    
-    .btn-copiar{
+
+    .btn-copiar {
         border: none;
         padding right: 2%;
     }
@@ -416,7 +419,7 @@ body {
         display: none;
     }
 
-    .btn-limpiar{
+    .btn-limpiar {
         display: flex;
         background: none;
         color: #0A3871;
